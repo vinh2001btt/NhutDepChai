@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    background-color: lightcyan;
+    height: 50px;
+    font-size: 16px;
+    color: black;
+}
+#dautrang {
+    padding-left: 250px;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+#dautrang1 {
+    list-style-type: none;
+}
+header div ul li {
+    float: left;
+}
+#hotline {
+    padding-left: 10px;
+}
+header div ul li a {
+    text-decoration: none;
+    font-weight: bold;
+}
+#mail {
+    padding-left: 10px;
+}
+#dautrang2 {
+    list-style-type: none;
+}
+#icons {
+    float: right;
+    padding-right: 150px;
+}
+section.menu {
+    background-color: lightgrey;
+}
+section.menu > ul {
+display: flex;
+padding-left: 450px;
+
+}
+#ba {
+    font-family: sans-serif;
+    font-size: 16px;
+}
+#bon {
+    font-family: sans-serif;
+    font-size: 16px;
+}
+section.menu > ul > li {
+list-style-type: none;
+border-right: 2px solid blue;
+}
+ 
+section.menu > ul > li > a {
+text-decoration: none;
+display: block;
+min-width: 120px;
+text-align: center;
+padding: 15px;
+font-weight: bold;
+}
+section.menu > ul > li > a:hover {
+background-color: black;
+color: white;
+}
+#mazda {
+    float: left;
+    width: 450px;
+    margin-top: 40px;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    font-weight: inherit;
+
+}
+#mazda1 {
+    text-align: center;
+}
+#lienhe1 {
+    padding: 0 60px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+#lienhe1 ul li {
+    float: left;
+    list-style-type: none;
+    padding: 10px 40px 30px 10px;
+    font-size: 16px;
+}
+#lienhe1 ul li a {
+    text-decoration: none;
+    color: lightgrey;
+}
+hr {
+    background-color: greenyellow;
+    clear: both;
+    height: 3px;
+    width: 90%;
+}
+

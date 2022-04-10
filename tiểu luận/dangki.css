@@ -1,0 +1,164 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: blanchedalmond;
+}
+header {
+    background-color: lightcyan;
+    height: 50px;
+    font-size: 16px;
+    color: black;
+}
+#dautrang {
+    padding-left: 250px;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+#dautrang1 {
+    list-style-type: none;
+}
+header div ul li {
+    float: left;
+}
+#hotline {
+    padding-left: 10px;
+}
+header div ul li a {
+    text-decoration: none;
+    font-weight: bold;
+}
+#mail {
+    padding-left: 10px;
+}
+#dautrang2 {
+    list-style-type: none;
+}
+#icons {
+    float: right;
+    padding-right: 150px;
+}
+#ba {
+    font-family: sans-serif;
+    font-size: 16px;
+}
+#bon {
+    font-family: sans-serif;
+    font-size: 16px;
+}
+section.menu {
+    background-color: lightgrey;
+}
+section.menu > ul {
+display: flex;
+padding-left: 450px;
+
+}
+section.menu > ul > li {
+list-style-type: none;
+border-right: 2px solid blue;
+}
+ 
+section.menu > ul > li > a {
+text-decoration: none;
+display: block;
+min-width: 100px;
+text-align: center;
+padding: 15px;
+font-weight: bold;
+}
+section.menu > ul > li > a:hover {
+background-color: black;
+color: white;
+}
+div#dangkythanhvien{
+    background-color: skyblue;
+    margin: 10px;
+    width: 717px;
+    height: 717px;
+    border-radius: 3px;
+    border:blue dashed 2px;
+    
+}
+div#dangkythanhvien p{
+    background-color: #206AB5;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    height: 25px;
+    padding-top:5px;
+    text-align: center;
+}
+fieldset#loc{
+    margin: 30px;
+    width: 650px;
+    height: 270px;
+}
+
+fieldset#loc table{
+    height: 197px;
+    width: 600px;
+    margin-left: 30px;
+
+    
+}
+fieldset#loc b{
+    font-size: 16px;
+    color:blue;
+
+}
+fieldset#loc legend{
+    width: 131px;
+    height: 100p;
+    padding: 0px;
+    margin: 16px;
+}
+fieldset#thongtin{
+    margin: 30px;
+    width: 650px;
+    height: 150px;
+}
+fieldset#thongtin table{
+    padding:0px;
+    height: 100px;
+    width: 600px;
+    margin-left: 30px;
+    
+}
+fieldset#thongtin b{
+    font-size: 16px;
+    color:blue;
+
+}
+fieldset#thongtin legend{
+    width: 155px;
+    height: 100p;
+    padding: 0px;
+    margin: 16px;
+    
+}
+.button{
+    height: 30px;
+    width: 80px;
+    position: relative;
+    left: 300px;
+    top: 80px;
+    background-color: #206AB5;
+    border: solid 1px black;
+    border-radius: 4px;
+    font-weight: bold;
+    color:white;
+    font-family:Arial;
+    
+}
+.button:hover{
+    cursor: pointer;
+}
+#dangkythanhvien {
+    padding: 20px;
+    margin-left: 500px;
+    padding-left: 50px;
+}
